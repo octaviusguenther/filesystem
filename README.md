@@ -13,7 +13,7 @@ This repository contains a program which mimics a filesystem based on inodes, wh
 - create a new filesystem called "newfilesystem" containing 20 inodes by running
 "./build/ha2 -c newfilesystem 20". After the filesystem has been created a console emerges with prompt "user@SPR".
 - to create a folder called "documents" in the root directory, run the command "mkdir /documents"
-- to create a file called "file" in the root directory, run the command "mkfile /file"
+- to create an empty file called "file" in the root directory, run the command "mkfile /file"
 - to show all folders and files in the root directory, run the command "list /"
 - to do above actions in a another folder, you always have to pass the absolute path within the filesystem as an argument, e.g. "mkfile /documents/text.txt"
 - to write in an existing empty file, run the command "writef /file this is a text"
@@ -35,6 +35,7 @@ and is © 2023 Octavius Guenther. All rights reserved.
 
 This repository is published for demonstration and portfolio purposes only.  
 Redistribution or reuse of the code without explicit permission is prohibited.
+
 
 
 
